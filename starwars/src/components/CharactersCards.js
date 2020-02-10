@@ -8,9 +8,9 @@ function TheCharactersCards(props) {
     return (
         <ContainerDiv>
             <h1>Name: { props.name }</h1>
-            <Styleh2>Birth Year: { props.name }</Styleh2>
-            <Styleh2>Gender: { props.name }</Styleh2>
-            <Styleh2>Height: { props.name }</Styleh2>
+            <Styleh2>Birth Year: { props.birthDate }</Styleh2>
+            <Styleh2>Gender: { props.gender }</Styleh2>
+            <Styleh2>Height: { props.height }</Styleh2>
         </ContainerDiv>
     )
 }

@@ -31,7 +31,7 @@ const App = () => {
         {data.length ? data.map(item  => {
           console.log(item)
           return<TheCharactersCards name={item.name} birthDate={item.birth_year} gender={item.gender} height={item.height}/>
-        }):null}
+        }) : null}
       </div>
     </div>
   );
